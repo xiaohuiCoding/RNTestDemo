@@ -1,0 +1,28 @@
+dependencies: \
+  /Users/xiaohui/Desktop/RNTestDemo/node_modules/react-native/React/Base/RCTModuleMethod.mm \
+  /Users/xiaohui/Desktop/RNTestDemo/node_modules/react-native/React/Base/RCTModuleMethod.h \
+  /Users/xiaohui/Desktop/RNTestDemo/node_modules/react-native/React/Base/RCTBridgeMethod.h \
+  /Users/xiaohui/Desktop/RNTestDemo/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/xiaohui/Desktop/RNTestDemo/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/xiaohui/Desktop/RNTestDemo/node_modules/react-native/React/Base/RCTNullability.h \
+  /Users/xiaohui/Desktop/RNTestDemo/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/xiaohui/Desktop/RNTestDemo/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/xiaohui/Desktop/RNTestDemo/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/xiaohui/Desktop/RNTestDemo/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/xiaohui/Desktop/RNTestDemo/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/xiaohui/Desktop/RNTestDemo/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/xiaohui/Desktop/RNTestDemo/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/xiaohui/Desktop/RNTestDemo/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/xiaohui/Desktop/RNTestDemo/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Users/xiaohui/Desktop/RNTestDemo/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/xiaohui/Desktop/RNTestDemo/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/xiaohui/Desktop/RNTestDemo/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/xiaohui/Desktop/RNTestDemo/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/xiaohui/Desktop/RNTestDemo/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/xiaohui/Desktop/RNTestDemo/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/xiaohui/Desktop/RNTestDemo/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/xiaohui/Desktop/RNTestDemo/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/xiaohui/Desktop/RNTestDemo/node_modules/react-native/React/Base/RCTCxxConvert.h \
+  /Users/xiaohui/Desktop/RNTestDemo/node_modules/react-native/React/Base/RCTManagedPointer.h \
+  /Users/xiaohui/Desktop/RNTestDemo/node_modules/react-native/React/Base/RCTParserUtils.h \
+  /Users/xiaohui/Desktop/RNTestDemo/node_modules/react-native/React/Profiler/RCTProfile.h

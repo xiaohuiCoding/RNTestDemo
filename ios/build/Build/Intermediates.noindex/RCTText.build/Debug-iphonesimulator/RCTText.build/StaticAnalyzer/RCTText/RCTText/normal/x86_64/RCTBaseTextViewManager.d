@@ -1,0 +1,25 @@
+dependencies: \
+  /Users/xiaohui/Desktop/RNTestDemo/node_modules/react-native/Libraries/Text/BaseText/RCTBaseTextViewManager.m \
+  /Users/xiaohui/Desktop/RNTestDemo/node_modules/react-native/Libraries/Text/BaseText/RCTBaseTextViewManager.h \
+  /Users/xiaohui/Desktop/RNTestDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTViewManager.h \
+  /Users/xiaohui/Desktop/RNTestDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/xiaohui/Desktop/RNTestDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/xiaohui/Desktop/RNTestDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/xiaohui/Desktop/RNTestDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/xiaohui/Desktop/RNTestDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/xiaohui/Desktop/RNTestDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/xiaohui/Desktop/RNTestDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/xiaohui/Desktop/RNTestDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/xiaohui/Desktop/RNTestDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/xiaohui/Desktop/RNTestDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/xiaohui/Desktop/RNTestDemo/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/xiaohui/Desktop/RNTestDemo/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/xiaohui/Desktop/RNTestDemo/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/xiaohui/Desktop/RNTestDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Users/xiaohui/Desktop/RNTestDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/xiaohui/Desktop/RNTestDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/xiaohui/Desktop/RNTestDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/xiaohui/Desktop/RNTestDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/xiaohui/Desktop/RNTestDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/xiaohui/Desktop/RNTestDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/xiaohui/Desktop/RNTestDemo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h

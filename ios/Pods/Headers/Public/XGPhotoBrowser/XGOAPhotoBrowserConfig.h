@@ -1,0 +1,1 @@
+../../../XGPhotoBrowser/XGPhotoBrowser/Classes/XGOAPhotoBrowserConfig.h

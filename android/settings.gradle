@@ -1,0 +1,5 @@
+rootProject.name = 'RNTestDemo'
+include ':xgrn-navigation'
+project(':xgrn-navigation').projectDir = new File(rootProject.projectDir, '../node_modules/xgrn-navigation/android')
+
+include ':app'
