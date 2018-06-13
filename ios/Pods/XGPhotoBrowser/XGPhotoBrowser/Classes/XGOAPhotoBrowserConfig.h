@@ -15,10 +15,10 @@
 ///============下面的可以改成可以配置的参数形式====================
 
 // 图片保存成功提示文字
-#define XGOAPhotoBrowserSaveImageSuccessText @" ^_^ 保存成功 "
+#define XGOAPhotoBrowserSaveImageSuccessText @"保存成功 "
 
 // 图片保存失败提示文字
-#define XGOAPhotoBrowserSaveImageFailText @" >_< 保存失败 "
+#define XGOAPhotoBrowserSaveImageFailText @"保存失败 "
 
 // browser背景颜色
 #define XGOAPhotoBrowserBackgrounColor [UIColor colorWithRed:0 green:0 blue:0 alpha:1]

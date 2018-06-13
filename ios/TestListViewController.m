@@ -18,15 +18,25 @@
 @end
 
 @implementation TestListViewController
-  
+
+//- (void)viewWillAppear:(BOOL)animated {
+//  [super viewWillAppear:animated];
+//  [self.navigationController setNavigationBarHidden:NO];
+//}
+//
+//- (void)viewWillDisappear:(BOOL)animated {
+//  [super viewWillDisappear:animated];
+//  [self.navigationController setNavigationBarHidden:YES];
+//}
+
 - (void)viewDidLoad {
   [super viewDidLoad];
   
-  self.navigationItem.title = self.titleString;
+  //  UIBarButtonItem *leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"icon_header_back"] style:UIBarButtonItemStylePlain target:self action:@selector(pop)];
+  //  self.navigationItem.leftBarButtonItem = leftBarButtonItem;
   
-  
-  UIBarButtonItem *leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"icon_header_back"] style:UIBarButtonItemStylePlain target:self action:@selector(pop)];
-  self.navigationItem.leftBarButtonItem = leftBarButtonItem;
+  self.view.backgroundColor = [UIColor whiteColor];
+  self.navigationView.titleLabel.text = self.titleString;
   
   
   UIButton *button=[UIButton buttonWithType:UIButtonTypeRoundedRect];

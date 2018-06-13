@@ -5308,9 +5308,9 @@ react-is@^16.3.1:
   version "16.3.2"
   resolved "http://172.16.2.71:4873/react-is/-/react-is-16.3.2.tgz#f4d3d0e2f5fbb6ac46450641eb2e25bf05d36b22"
 
-react-native@0.55.2:
-  version "0.55.2"
-  resolved "http://172.16.2.71:4873/react-native/-/react-native-0.55.2.tgz#80d26a3f4193ebd1fd49a4859011c501b0ca3bab"
+react-native@^0.55.2:
+  version "0.55.4"
+  resolved "http://172.16.2.71:4873/react-native/-/react-native-0.55.4.tgz#eecffada3750a928e2ddd07cf11d857ae9751c30"
   dependencies:
     absolute-path "^0.0.0"
     art "^0.10.0"

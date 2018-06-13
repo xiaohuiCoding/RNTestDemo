@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "69A423F5715C98978E4D82856C0EEBC8"
+               BlueprintIdentifier = "211395319B7F79C2589D91D8908D93B5"
                BlueprintName = "XGPhotoBrowser"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libXGPhotoBrowser.a">

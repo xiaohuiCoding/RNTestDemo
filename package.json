@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "react": "16.3.1",
-    "react-native": "0.55.2",
+    "react-native": "^0.55.2",
     "xgrn-baseview": "^0.1.11",
     "xgrn-navigation": "^0.2.20",
     "xgrn-photobrowser": "^0.0.11"

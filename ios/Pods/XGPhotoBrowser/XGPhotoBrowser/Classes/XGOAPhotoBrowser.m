@@ -349,6 +349,8 @@
         });
       }
     }];
+  }else {
+      complete(YES);
   }
 #else
   ALAuthorizationStatus author = [ALAssetsLibrary authorizationStatus];

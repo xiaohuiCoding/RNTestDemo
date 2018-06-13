@@ -16,17 +16,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-  self.navigationItem.title = @"native list detail";
+  
+  self.view.backgroundColor = [UIColor whiteColor];
+  self.navigationView.titleLabel.text = @"native list detail";
 }
 
-- (void)viewWillAppear:(BOOL)animated {
-  [super viewWillAppear:animated];
-  [self.navigationController setNavigationBarHidden:NO];
-}
-
-- (void)viewWillDisappear:(BOOL)animated {
-  [super viewWillDisappear:animated];
-  [self.navigationController setNavigationBarHidden:YES];
-}
+//- (void)viewWillAppear:(BOOL)animated {
+//  [super viewWillAppear:animated];
+//  [self.navigationController setNavigationBarHidden:NO];
+//}
+//
+//- (void)viewWillDisappear:(BOOL)animated {
+//  [super viewWillDisappear:animated];
+//  [self.navigationController setNavigationBarHidden:YES];
+//}
 
 @end

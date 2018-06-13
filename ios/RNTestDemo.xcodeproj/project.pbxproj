@@ -36,7 +36,21 @@
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* RNTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNTestDemoTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
-		4B4F9A4B20888D4E005938FD /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4F9A4A20888D4E005938FD /* BaseViewController.m */; };
+		4B47368220D0BAF70083903E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B47363920D0BAF70083903E /* BaseViewController.m */; };
+		4B47368320D0BAF70083903E /* MBProgressHUD+Mask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B47363C20D0BAF70083903E /* MBProgressHUD+Mask.m */; };
+		4B47368420D0BAF70083903E /* NSError+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B47363E20D0BAF70083903E /* NSError+Category.m */; };
+		4B47368520D0BAF70083903E /* NSString+Money.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B47364020D0BAF70083903E /* NSString+Money.m */; };
+		4B47368620D0BAF70083903E /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B47364220D0BAF70083903E /* UIColor+Category.m */; };
+		4B47368720D0BAF70083903E /* UIView+AdjustFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B47364420D0BAF70083903E /* UIView+AdjustFrame.m */; };
+		4B47368820D0BAF70083903E /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B47364720D0BAF70083903E /* Constants.m */; };
+		4B47368920D0BAF70083903E /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B47364A20D0BAF70083903E /* NSString+Util.m */; };
+		4B47368A20D0BAF70083903E /* SJYXUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B47364C20D0BAF70083903E /* SJYXUtils.m */; };
+		4B47368B20D0BAF70083903E /* BadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B47364F20D0BAF70083903E /* BadgeView.m */; };
+		4B47368C20D0BAF70083903E /* EmptyErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B47365120D0BAF70083903E /* EmptyErrorView.m */; };
+		4B47368D20D0BAF70083903E /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B47365320D0BAF70083903E /* LoadingView.m */; };
+		4B47368E20D0BAF70083903E /* NavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B47365520D0BAF70083903E /* NavigationView.m */; };
+		4B47368F20D0BAF70083903E /* StaticSearchBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B47365720D0BAF70083903E /* StaticSearchBarView.m */; };
+		4B47369020D0BAF70083903E /* Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B47365920D0BAF70083903E /* Toast.m */; };
 		4B539F712090710A00338FBE /* libRCTCameraRoll.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B539F70209070FA00338FBE /* libRCTCameraRoll.a */; };
 		4BA4667220882A8800AD42A3 /* TestListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA4667120882A8800AD42A3 /* TestListViewController.m */; };
 		4BA46842208866E800AD42A3 /* TestListDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA46841208866E800AD42A3 /* TestListDetailViewController.m */; };
@@ -368,8 +382,37 @@
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C1FEB22BDB74555B9FE01AD /* XGNavigation.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = XGNavigation.xcodeproj; path = "../node_modules/xgrn-navigation/ios/XGNavigation.xcodeproj"; sourceTree = "<group>"; };
 		4B05FE1820907A77006CEA6D /* XGPhoto.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = XGPhoto.xcodeproj; path = "../node_modules/xgrn-photobrowser/ios/XGPhoto/XGPhoto.xcodeproj"; sourceTree = "<group>"; };
-		4B4F9A4920888D4E005938FD /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
-		4B4F9A4A20888D4E005938FD /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		4B47363820D0BAF70083903E /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		4B47363920D0BAF70083903E /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		4B47363B20D0BAF70083903E /* MBProgressHUD+Mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Mask.h"; sourceTree = "<group>"; };
+		4B47363C20D0BAF70083903E /* MBProgressHUD+Mask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Mask.m"; sourceTree = "<group>"; };
+		4B47363D20D0BAF70083903E /* NSError+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Category.h"; sourceTree = "<group>"; };
+		4B47363E20D0BAF70083903E /* NSError+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Category.m"; sourceTree = "<group>"; };
+		4B47363F20D0BAF70083903E /* NSString+Money.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Money.h"; sourceTree = "<group>"; };
+		4B47364020D0BAF70083903E /* NSString+Money.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Money.m"; sourceTree = "<group>"; };
+		4B47364120D0BAF70083903E /* UIColor+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Category.h"; sourceTree = "<group>"; };
+		4B47364220D0BAF70083903E /* UIColor+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Category.m"; sourceTree = "<group>"; };
+		4B47364320D0BAF70083903E /* UIView+AdjustFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AdjustFrame.h"; sourceTree = "<group>"; };
+		4B47364420D0BAF70083903E /* UIView+AdjustFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AdjustFrame.m"; sourceTree = "<group>"; };
+		4B47364620D0BAF70083903E /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		4B47364720D0BAF70083903E /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		4B47364920D0BAF70083903E /* NSString+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Util.h"; sourceTree = "<group>"; };
+		4B47364A20D0BAF70083903E /* NSString+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Util.m"; sourceTree = "<group>"; };
+		4B47364B20D0BAF70083903E /* SJYXUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJYXUtils.h; sourceTree = "<group>"; };
+		4B47364C20D0BAF70083903E /* SJYXUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJYXUtils.m; sourceTree = "<group>"; };
+		4B47364E20D0BAF70083903E /* BadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BadgeView.h; sourceTree = "<group>"; };
+		4B47364F20D0BAF70083903E /* BadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BadgeView.m; sourceTree = "<group>"; };
+		4B47365020D0BAF70083903E /* EmptyErrorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyErrorView.h; sourceTree = "<group>"; };
+		4B47365120D0BAF70083903E /* EmptyErrorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyErrorView.m; sourceTree = "<group>"; };
+		4B47365220D0BAF70083903E /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		4B47365320D0BAF70083903E /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		4B47365420D0BAF70083903E /* NavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationView.h; sourceTree = "<group>"; };
+		4B47365520D0BAF70083903E /* NavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationView.m; sourceTree = "<group>"; };
+		4B47365620D0BAF70083903E /* StaticSearchBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticSearchBarView.h; sourceTree = "<group>"; };
+		4B47365720D0BAF70083903E /* StaticSearchBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticSearchBarView.m; sourceTree = "<group>"; };
+		4B47365820D0BAF70083903E /* Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toast.h; sourceTree = "<group>"; };
+		4B47365920D0BAF70083903E /* Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Toast.m; sourceTree = "<group>"; };
+		4B47369120D0BC790083903E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		4B539F6B209070FA00338FBE /* RCTCameraRoll.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTCameraRoll.xcodeproj; path = "../node_modules/react-native/Libraries/CameraRoll/RCTCameraRoll.xcodeproj"; sourceTree = "<group>"; };
 		4BA4667020882A8800AD42A3 /* TestListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestListViewController.h; sourceTree = "<group>"; };
 		4BA4667120882A8800AD42A3 /* TestListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestListViewController.m; sourceTree = "<group>"; };
@@ -526,10 +569,9 @@
 		13B07FAE1A68108700A75B9A /* RNTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4B47363620D0BAF70083903E /* Common */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
-				4B4F9A4920888D4E005938FD /* BaseViewController.h */,
-				4B4F9A4A20888D4E005938FD /* BaseViewController.m */,
 				4BA4667020882A8800AD42A3 /* TestListViewController.h */,
 				4BA4667120882A8800AD42A3 /* TestListViewController.m */,
 				4BA46840208866E800AD42A3 /* TestListDetailViewController.h */,
@@ -538,6 +580,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				4B47369120D0BC790083903E /* PrefixHeader.pch */,
 			);
 			name = RNTestDemo;
 			sourceTree = "<group>";
@@ -580,6 +623,84 @@
 				4B05FE4420907A77006CEA6D /* libXGPhoto.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4B47363620D0BAF70083903E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4B47363720D0BAF70083903E /* BaseVC */,
+				4B47363A20D0BAF70083903E /* Catagory */,
+				4B47364520D0BAF70083903E /* Constants */,
+				4B47364820D0BAF70083903E /* Utils */,
+				4B47364D20D0BAF70083903E /* Views */,
+			);
+			name = Common;
+			path = RNTestDemo/Common;
+			sourceTree = "<group>";
+		};
+		4B47363720D0BAF70083903E /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				4B47363820D0BAF70083903E /* BaseViewController.h */,
+				4B47363920D0BAF70083903E /* BaseViewController.m */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		4B47363A20D0BAF70083903E /* Catagory */ = {
+			isa = PBXGroup;
+			children = (
+				4B47363B20D0BAF70083903E /* MBProgressHUD+Mask.h */,
+				4B47363C20D0BAF70083903E /* MBProgressHUD+Mask.m */,
+				4B47363D20D0BAF70083903E /* NSError+Category.h */,
+				4B47363E20D0BAF70083903E /* NSError+Category.m */,
+				4B47363F20D0BAF70083903E /* NSString+Money.h */,
+				4B47364020D0BAF70083903E /* NSString+Money.m */,
+				4B47364120D0BAF70083903E /* UIColor+Category.h */,
+				4B47364220D0BAF70083903E /* UIColor+Category.m */,
+				4B47364320D0BAF70083903E /* UIView+AdjustFrame.h */,
+				4B47364420D0BAF70083903E /* UIView+AdjustFrame.m */,
+			);
+			path = Catagory;
+			sourceTree = "<group>";
+		};
+		4B47364520D0BAF70083903E /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4B47364620D0BAF70083903E /* Constants.h */,
+				4B47364720D0BAF70083903E /* Constants.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		4B47364820D0BAF70083903E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4B47364920D0BAF70083903E /* NSString+Util.h */,
+				4B47364A20D0BAF70083903E /* NSString+Util.m */,
+				4B47364B20D0BAF70083903E /* SJYXUtils.h */,
+				4B47364C20D0BAF70083903E /* SJYXUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4B47364D20D0BAF70083903E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4B47364E20D0BAF70083903E /* BadgeView.h */,
+				4B47364F20D0BAF70083903E /* BadgeView.m */,
+				4B47365020D0BAF70083903E /* EmptyErrorView.h */,
+				4B47365120D0BAF70083903E /* EmptyErrorView.m */,
+				4B47365220D0BAF70083903E /* LoadingView.h */,
+				4B47365320D0BAF70083903E /* LoadingView.m */,
+				4B47365420D0BAF70083903E /* NavigationView.h */,
+				4B47365520D0BAF70083903E /* NavigationView.m */,
+				4B47365620D0BAF70083903E /* StaticSearchBarView.h */,
+				4B47365720D0BAF70083903E /* StaticSearchBarView.m */,
+				4B47365820D0BAF70083903E /* Toast.h */,
+				4B47365920D0BAF70083903E /* Toast.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		4B539F6C209070FA00338FBE /* Products */ = {
@@ -1262,11 +1383,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B47368520D0BAF70083903E /* NSString+Money.m in Sources */,
+				4B47368D20D0BAF70083903E /* LoadingView.m in Sources */,
+				4B47368A20D0BAF70083903E /* SJYXUtils.m in Sources */,
 				4BA4667220882A8800AD42A3 /* TestListViewController.m in Sources */,
-				4B4F9A4B20888D4E005938FD /* BaseViewController.m in Sources */,
+				4B47368420D0BAF70083903E /* NSError+Category.m in Sources */,
+				4B47369020D0BAF70083903E /* Toast.m in Sources */,
+				4B47368220D0BAF70083903E /* BaseViewController.m in Sources */,
+				4B47368E20D0BAF70083903E /* NavigationView.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				4B47368320D0BAF70083903E /* MBProgressHUD+Mask.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				4B47368720D0BAF70083903E /* UIView+AdjustFrame.m in Sources */,
 				4BA46842208866E800AD42A3 /* TestListDetailViewController.m in Sources */,
+				4B47368620D0BAF70083903E /* UIColor+Category.m in Sources */,
+				4B47368920D0BAF70083903E /* NSString+Util.m in Sources */,
+				4B47368B20D0BAF70083903E /* BadgeView.m in Sources */,
+				4B47368820D0BAF70083903E /* Constants.m in Sources */,
+				4B47368C20D0BAF70083903E /* EmptyErrorView.m in Sources */,
+				4B47368F20D0BAF70083903E /* StaticSearchBarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1379,6 +1514,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Venders/Alipay",
 				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/xgrn-navigation/ios/XGNavigation/**",
@@ -1405,6 +1541,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Venders/Alipay",
 				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/xgrn-navigation/ios/XGNavigation/**",
