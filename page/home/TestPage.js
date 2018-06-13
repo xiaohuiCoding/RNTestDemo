@@ -31,7 +31,6 @@ export default class TestPage extends Component {
                     underlineColorAndroid="transparent"
                     multiline={true}
                     // maxLength={20}
-                    // value={this.state.textValue}
                     onChangeText={(text) => {
                         this.setState({
                             textValue: text
